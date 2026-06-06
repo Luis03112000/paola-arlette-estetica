@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paola y Arlette Estética - Salón de Belleza y Spa</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>💄 Paola y Arlette</h1>
+                <p>Estética & Spa</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Hero/Inicio -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>Bienvenida a Paola y Arlette</h2>
+            <p>Tu lugar de belleza, relajación y transformación</p>
+            <button class="btn"><a href="#contacto">Contactanos</a></button>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <i class="fas fa-hand-sparkles"></i>
+                    <h3>Manicura</h3>
+                    <p>Diseños modernos y colores de temporada para tus uñas</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="fas fa-foot-prints"></i>
+                    <h3>Pedicura</h3>
+                    <p>Cuidado completo y relajante para tus pies</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Masajes</h3>
+                    <p>Relajación profunda para aliviar tensiones</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="fas fa-face-smile"></i>
+                    <h3>Faciales</h3>
+                    <p>Tratamientos especializados para tu piel</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="fas fa-wand-magic-sparkles"></i>
+                    <h3>Depilación</h3>
+                    <p>Técnicas seguras y efectivas</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="fas fa-scissors"></i>
+                    <h3>Cortes y Peinados</h3>
+                    <p>Estilos personalizados para ti</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Galería -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2>Galería</h2>
+            <div class="galeria-grid">
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Manicura" alt="Manicura">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Pedicura" alt="Pedicura">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Spa" alt="Spa">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Facial" alt="Facial">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Depilacion" alt="Depilación">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://via.placeholder.com/250x250?text=Peinado" alt="Peinado">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto e Información -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contactanos</h2>
+            <div class="contacto-grid">
+                <div class="contacto-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Dirección</h4>
+                            <p>18 de julio 2157, Montevideo, Uruguay</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:097453380">097453380</a></p>
+                            <p><a href="tel:094411357">094411357</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horarios</h4>
+                            <p>Lunes a Viernes: 9:00 AM - 6:00 PM</p>
+                            <p>Sábado: 10:00 AM - 5:00 PM</p>
+                            <p>Domingo: Cerrado</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formulario">
+                    <h3>Envíanos un Mensaje</h3>
+                    <form id="contactForm">
+                        <input type="text" placeholder="Tu Nombre" required>
+                        <input type="email" placeholder="Tu Email" required>
+                        <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ubicación en Mapa -->
+    <section class="mapa">
+        <div class="container">
+            <h2>Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.8935773408453!2d-56.16149!3d-34.90122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f8227b2f2e0dd%3A0x0!2s18%20de%20Julio%202157%2C%20Montevideo!5e0!3m2!1ses!2suy!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Paola y Arlette Estética. Todos los derechos reservados.</p>
+            <div class="redes-sociales">
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
